@@ -4,7 +4,7 @@
 ```hpl
 module "create_ecr" {
     source = "hestuwidyo/ecr/aws"
-    version = "1.0.1"
+    version = "1.0.2"
 
     ecr = {
         # ecr_1

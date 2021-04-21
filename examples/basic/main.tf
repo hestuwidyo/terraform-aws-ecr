@@ -1,5 +1,6 @@
 module "create_ecr" {
-    source = "git@github.com:hestuwidyo/terraform-aws-ecr.git"
+    source = "hestuwidyo/ecr/aws"
+    version = "1.0.2"
 
     ecr = {
         ecr_name_1 ={
