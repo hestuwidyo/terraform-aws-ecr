@@ -1,5 +1,6 @@
 module "create_ecr" {
-    source = ""
+    source = "hestuwidyo/ecr/aws"
+    version = "1.0.2"
 
     ecr = {
         ecr_name_1 ={
